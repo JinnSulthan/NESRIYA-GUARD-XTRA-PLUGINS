@@ -76,11 +76,11 @@ async def rmbg(client, message):
         end = datetime.now()
         ms = (end - start).seconds
         await pablo.edit(
-            "Removed image's Background in {} seconds, powered by @FridayOT".format(ms)
+            "Removed image's Background in {} seconds, powered by @MR_JINN_OF_TG".format(ms)
         )
     else:
         await pablo.edit(
-            "ReMove.BG API returned Errors. Please report to @FridayOT\n`{}".format(
+            "ReMove.BG API returned Errors. Please report to @MR_JINN_OF_TG\n`{}".format(
                 output_file_name.content.decode("UTF-8")
             )
         )
